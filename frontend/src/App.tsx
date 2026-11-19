@@ -107,7 +107,7 @@ function ShapBars({ shapValues }: { shapValues: Record<string, number> }) {
 
 // ---- Main app ----
 export default function App() {
-  const [apiUrl, setApiUrl] = useState("https://customer-churn-prediction.onrender.com/predict");
+  const [apiUrl, setApiUrl] = useState("https://customer-churn-prediction-k5hs.onrender.com//predict");
   const [customer, setCustomer] = useState<CustomerInput>(DEFAULT_CUSTOMER);
   const [result, setResult] = useState<PredictionResponse | null>(null);
   const [loading, setLoading] = useState(false);
