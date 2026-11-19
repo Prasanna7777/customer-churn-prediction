@@ -13,7 +13,7 @@ app = FastAPI(title="Customer Churn Prediction API")
 # In production, replace "*" with your actual frontend's domain.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://prasanna7777.github.io"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
